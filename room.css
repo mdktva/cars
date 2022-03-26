@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.subheader span{
+    color: #AAAAAA;
+    font-size: 12px;
+    line-height: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subheader .container{
+    display: flex;
+    justify-content: end;
+}
+.subheader{
+    background-color: #F4F4F4;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.header .container{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-top: 10px; */
+}
+.header .container img{
+    width: 24px;
+    height: 21px;
+
+}
+.header .container a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    line-height: 14,4px;
+    
+}
+.section1 .firstpic img{
+    padding-top: 40px;
+    height: 740px;
+
+}
+.text{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text .left{
+    width: 355px;
+    height: 174px;
+    padding: 30px;
+    font-size: 25px;
+}
+.text .right{
+    width: 569px;
+    height: 160px;
+    padding: 30px;
+    font-size: 24px;
+}
+.pics{
+    display: flex;
+}
+.pics img{
+    width: 588px;
+    height: 412px;
+    padding-top: 30px;
+    margin: 20px;
+
+}
+.pics p{
+    padding-left: 20px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.logos{
+    height: 70vh;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logopics{
+    padding-top: 50px;
+}
+.logopics div img{
+    width: 119px;
+    height: 70px;
+    padding: 15px;
+}
+.logos h1{
+    font-size: 48px;
+    line-height: 48px;
+    
+}
+.logos p{
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.picc img{
+    width: 100%;
+    height: 700px;
+
+}
+.getInTouch .container{
+    /* height: 70vh; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.getInTouch .container h1{
+    font-size: 36px;
+    
+}
+.getInTouch img{
+    width: 160px;
+}
+.getInTouch p{
+    width: 316px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+.getInTouch h1{
+    width: 1077px;
+    font-size: 48px;
+    line-height: 56px;
+}
+.picc2{
+    background-image: url(./images/picc2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+    box-sizing: border-box;
+    
+}
+.picc2 p{
+    font-size: 24px;
+    line-height: 32px;
+}
+.picc2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.picc2 div{
+    padding-bottom: 40px;
+}
+.weMake{
+    height: 70vh;
+    padding-top: 100px;
+    box-sizing: border-box;
+    
+}
+.weMake .container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.weMake .container h1{
+    width: 882px;
+    font-size: 36px;
+    padding-top: 25px;
+}
+.element{
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+.elements .container .element img{
+    width: 550px;
+}
+.element div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+
+.picc3{
+    width: 100%;
+    height: 700px;
+    margin-top: 250px;
+}
+
+.riskfree{
+    width: 80%;
+    margin: 0 auto;
+    height: 465px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+.riskfree .elements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.riskfree a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #46856E;
+}
+.riskfree div{
+    padding-right: 35px;
+}
+footer{
+    background-color: #2B2B2B;
+    width: 70vh;
+    width: fit-content;
+    color: white;
+
+    margin-top: 100px;
+    padding-top: 70px;
+
+    padding-bottom: 50px;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer .room{
+    width: 17%;
+    /* padding-left: 150px; */
+}
+footer .about{
+    width: 17%;
+}
+footer .support{
+    width: 17%;
+}
+footer .followUs{
+    width: 17%;
+}
+footer .mail{
+    width: 17%;
+}
+footer .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+}
+.mail .yes{
+    font-size: 11px;
+    line-height: 12px;
+}
